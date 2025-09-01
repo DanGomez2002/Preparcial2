@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 15vh;
+    background-color: green;
+}
+
+main {
+    height: 70vh;
+
+}
+
+#rojo {
+    height: 10%;
+    background-color: red;
+}
+
+#superCaja {
+    height: 80%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.mitad {
+    flex: 1;
+    background-color: rgb(243, 140, 6);
+}
+
+#amarrillo1 {
+    align-items: flex-end;
+
+    height: 100%;
+    background-color: rgb(5, 189, 236);
+    display: flex;
+}
+
+#verde1 {
+    height: 100%;
+    border: 15px solid yellow;
+    width: 33.33%;
+    background-color: green;
+}
+
+#azul1 {
+    height: 100%;
+    width: 66.67%;
+    background-color: rgb(5, 189, 236);
+}
+
+
+#amarrilo2 {
+    height: 100%;
+    background-color: yellow;
+    flex-direction: row;
+    display: flex;
+}
+
+#verde2 {
+    height: auto;
+    margin: 3%;
+    width: 66.67%;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+#minibox3{
+    flex: 1;
+    margin: 1%;
+    background-color: gray;
+}
+
+
+#verde3 {
+    height: auto;
+    margin: 3%;
+    width: 33.33%;
+    background-color: green;
+}
+
+#azul {
+    height: 10%;
+    background-color: aqua;
+    border: 2px solid;
+}
+
+footer {
+    height: 15vh;
+    background-color: rosybrown;
+}
+@media (min-width: 768px) {
+#verde2{
+    flex-direction: row;
+}
+
+    
+}
